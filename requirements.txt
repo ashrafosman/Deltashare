@@ -1,1 +1,6 @@
 streamlit
+delta_sharing
+pandas
+tqdm
+databricks-sdk
+delta-sharing
