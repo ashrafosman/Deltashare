@@ -17,3 +17,22 @@ A simple Streamlit app template for you to modify!
    ```
    $ streamlit run streamlit_app.py
    ```
+
+
+For the Windows Desktop Version
+Install pyinstaller
+```
+pip install pyinstaller
+```
+
+Install extra dependencies
+
+```
+pip install PyQt5
+```
+
+Package the file into an executable
+
+```
+ pyinstaller --onefile --noconsole .\deltatop.py
+```
